@@ -11,7 +11,7 @@ const HomePage = () => {
    useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/api/notes")
+      const response = await axios.get(`${apiURL}/api/notes`)
       console.log("DATOS:", response.data)
 
       setNotes(response.data)
