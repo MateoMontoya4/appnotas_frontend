@@ -1,5 +1,4 @@
 import { da } from "date-fns/locale"
-import { SquarePen, Trash } from "lucide-react"
 import axios from "axios"
 import { SquarePen, Trash } from "lucide-react"
 
